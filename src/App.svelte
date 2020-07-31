@@ -7,13 +7,7 @@
     import AuthForm from './components/AuthForm.svelte'
 
     let firebaseConfig = {
-        apiKey: 'AIzaSyABGSgGJKiXDFac6owmWsYI1iucofbTuxI',
-        authDomain: 'tutorials-7dfbb.firebaseapp.com',
-        databaseURL: 'https://tutorials-7dfbb.firebaseio.com',
-        projectId: 'tutorials-7dfbb',
-        storageBucket: 'tutorials-7dfbb.appspot.com',
-        messagingSenderId: '739505788883',
-        appId: '1:739505788883:web:bfcb6e72e7c1d87f36c126',
+       // your firebase configuration here
     }
     firebase.initializeApp(firebaseConfig)
 </script>
